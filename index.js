@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
     if (err) {
       return res.status(500).send('Database query failed');
     }
-    res.send(`Current time from DB is shown as: ${results[0].time}`);
+    res.send(`Current time from DB Manoj RSR: ${results[0].time}`);
   });
 });
 
